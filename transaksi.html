@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <link rel="shortcut icon" href="gambar2.jpg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="uas.css">
+    <script src="script.js" defer></script>
+    <title>Transaksi</title>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo Aplikasi" class="logo">
+        <nav>
+            <p style="font-size: 13;"><pre>
+<a href="indexUAS.html">Beranda</a>         <a href="transaksi.html">Transaksi</a>          <a href="profilUAS.html">Profil</a>         <a href="login.html">Login</a></pre>  
+                            </p>
+        </nav>
+    </header>
+    <main>
+        <h1>Form Transaksi</h1>
+       <form id="transaksiForm">
+        <ul><label for="namaTransaksi">Nama Transaksi:</label>
+            <input type="text" id="namaTransaksi" required></ul>
+        <ul><label for="jumlah">Jumlah:</label>
+            <input type="number" id="jumlah" required></ul>
+        <ul><label for="kategori">Kategori:</label>
+            <input type="text" id="kategori" required></ul>
+        <ul><button type="submit">Simpan</button></ul>
+        </form>
+        <p><a href="daftar_transaksi.html">Daftar Transaksi</a></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nama Transaksi</th>
+                    <th>Jumlah</th>
+                    <th>Kategori</th>
+                </tr>
+            </thead>
+            <tbody id="daftarTransaksi">
+                <!-- Daftar transaksi akan ditampilkan di sini -->
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <p>&copy; 2024 Aplikasi Simpan Pinjam</p>
+    </footer>
+</body>
+</html>
